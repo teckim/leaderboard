@@ -15,35 +15,18 @@
       <div class="scores__header">
         <div class="scores__header-title"></div>
         <div class="scores__header-actions">
-          <button class="button" type="button">Refresh</button>
+          <button class="scores__refresh-btn button" type="button">Refresh</button>
         </div>
       </div>
       <div class="scores__body">
-        <ul class="scores__list">
-          <li class="scores__list-item">
-            <div class="scores__list-item__name">Name:</div>
-            <div class="scores__list-item__score">100</div>
-          </li>
-          <li class="scores__list-item">
-            <div class="scores__list-item__name">Name:</div>
-            <div class="scores__list-item__score">200</div>
-          </li>
-          <li class="scores__list-item">
-            <div class="scores__list-item__name">Name:</div>
-            <div class="scores__list-item__score">500</div>
-          </li>
-          <li class="scores__list-item">
-            <div class="scores__list-item__name">Name:</div>
-            <div class="scores__list-item__score">10</div>
-          </li>
-        </ul>
+        <ul class="scores__list"></ul>
       </div>
     </section>
     <section class="score-form">
       <div class="score-form__title">Add your score</div>
       <form class="score-form__body">
-        <input class="score-form__input input" type="text">
-        <input class="score-form__input input" type="text">
+        <input class="score-form__input input" name="user" type="text" placeholder="User">
+        <input class="score-form__input input" name="score" type="number" placeholder="Score">
         <button class="score-form__submit-btn button" type="submit">Submit</button>
       </form>
     </section>
