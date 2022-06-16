@@ -5,7 +5,8 @@ const listContainer = document.querySelector('.scores__list');
 const template = (scores) => scores
   .map(({ user, score }) => `
       <li class="scores__list-item">
-        <span class="scores__list-item__name">${user}:</span>
+        <span class="scores__list-item__name">${user}</span>
+        <span class="scores__list-item__line"></span>
         <span class="scores__list-item__score">${score}</span>
       </li>
     `)
