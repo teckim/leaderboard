@@ -21,7 +21,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://teckim.github.io/leaderbord)
+[Live Demo Link](https://teckim.github.io/leaderboard)
 
 
 ## Getting Started
