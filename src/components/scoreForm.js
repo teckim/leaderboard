@@ -1,4 +1,4 @@
-import gameScoresApi from '../api/gameScores.js';
+import gameScoresApi from '~/api/gameScores.js';
 
 const form = document.querySelector('.score-form__body');
 const userInput = document.querySelector('.score-form__input[name="user"]');

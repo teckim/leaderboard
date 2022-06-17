@@ -1,4 +1,4 @@
-import http from '../utils/http.js';
+import http from '~/utils/http.js';
 
 const GAME_ID = process.env.GAME_ID || localStorage.getItem('GAME_ID') || 'AtUJdypTI419Um3kkLSS';
 const ENDPOINT = `games/${GAME_ID}/scores`;

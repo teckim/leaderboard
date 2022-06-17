@@ -1,11 +1,11 @@
-import scoreList from './components/scoreList.js';
-import scoreForm from './components/scoreForm.js';
-import game from './components/game.js';
+import scoreList from '~/components/scoreList.js';
+import scoreForm from '~/components/scoreForm.js';
+import game from '~/components/game.js';
 
-import './assets/styles/css/reset.css';
-import './assets/styles/scss/layout.scss';
-import './assets/styles/scss/components/scores.scss';
-import './assets/styles/scss/components/score-form.scss';
+import '~/assets/styles/css/reset.css';
+import '~/assets/styles/scss/layout.scss';
+import '~/assets/styles/scss/components/scores.scss';
+import '~/assets/styles/scss/components/score-form.scss';
 
 const refreshBtn = document.querySelector('.scores__refresh-btn');
 

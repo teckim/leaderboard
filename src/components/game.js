@@ -1,4 +1,4 @@
-import gamesApi from '../api/games.js';
+import gamesApi from '~/api/games.js';
 
 export default {
   init() {

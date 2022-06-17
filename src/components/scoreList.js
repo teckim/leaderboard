@@ -1,4 +1,4 @@
-import gameScoresApi from '../api/gameScores.js';
+import gameScoresApi from '~/api/gameScores.js';
 
 const listContainer = document.querySelector('.scores__list');
 
