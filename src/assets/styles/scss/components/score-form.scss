@@ -1,0 +1,21 @@
+.score-form {
+  width: 100%;
+  padding: 16px;
+  margin: 8px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+  border-radius: 20px;
+
+  &__title {
+    padding: 8px 0;
+    font-size: 28px;
+  }
+
+  &__body {
+    padding: 8px 0;
+  }
+
+  &__submit-btn {
+    float: right;
+  }
+}

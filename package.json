@@ -6,6 +6,7 @@
   "scripts": {
     "start": "webpack serve --open",
     "build": "webpack",
+    "dev": "webpack --watch",
     "test": "jest",
     "lint": "npx hint . && npx stylelint \"**/*.{css,scss}\" && npx eslint .",
     "deploy:gh-pages": "git subtree push --prefix dist origin gh-pages"
@@ -21,20 +22,24 @@
   },
   "homepage": "https://github.com/teckim/leaderboard#readme",
   "devDependencies": {
-    "css-loader": "^6.7.1",
-    "html-webpack-plugin": "^5.5.0",
-    "style-loader": "^3.3.1",
-    "webpack": "^5.72.1",
-    "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^4.9.0",
     "babel-eslint": "^10.1.0",
+    "css-loader": "^6.7.1",
+    "dotenv-webpack": "^7.1.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-import-resolver-webpack": "^0.13.2",
     "eslint-plugin-import": "^2.26.0",
-    "hint": "^6.1.11",
+    "hint": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "sass": "^1.52.3",
+    "sass-loader": "^13.0.0",
+    "style-loader": "^3.3.1",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^3.21.0"
+    "stylelint-scss": "^3.21.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
   }
 }
